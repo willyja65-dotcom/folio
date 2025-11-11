@@ -1,0 +1,131 @@
+.containerW100{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./../assets/footer-bg.png);
+    background-position: -180px 0;
+    background-size: 120%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 80%;
+    margin-top: 80px;
+    gap: 10px;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-underline {
+    width: 50px;
+    height: 3px;
+    background-color: var(--red);
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-social-icons i {
+    font-size: 24px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+  }
+  
+  .linkFooter {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .linkFooter li {
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  
+  .footer-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .footer-post p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer-post span {
+    font-size: 12px;
+    color: gray;
+  }
+  .newsletter-container {
+    background-color: var(--red);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 70%;
+  }
+  .newsletter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+  }
+  .newsletter-content h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .newsletter-input-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+    padding: 5px;
+  }
+  
+  .newsletter-input {
+    border: none;
+    padding: 10px;
+    flex: 1;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .newsletter-button {
+    background-color: var(--red);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .newsletter-button:hover {
+    background-color: var(--bleu);
+    color: #fff;
+  }
+  .footer-social-icons .fa-facebook {
+    color: rgb(28, 130, 255);
+  }
+  .footer-social-icons .fa-youtube {
+    color: rgb(245, 0, 0);
+  }

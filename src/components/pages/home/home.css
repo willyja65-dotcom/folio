@@ -1,0 +1,112 @@
+.herosection{
+    background-image: url('./../../assets//hero-bg.png');
+    width: 100%;
+    height: 100vh;
+    background-size:  120%;
+    background-position: -100px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.heroContent{
+    padding-top: 80px;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+}
+.item1{
+    width: 50%;
+    align-self: self-end;
+    margin-bottom: 50px;
+}
+.workp{
+    display: flex;
+    align-items: center;
+}
+.workp h1{
+    color: white;
+    font-family: "Poppins", serif;
+    margin-left: 20px;
+}
+.item1 h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 30px;
+}
+.item1 h2 span{
+    color: var(--red);
+}
+.item1 p{
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px;
+
+}
+
+.workp span .lineWork{
+    width: 50px;
+    border: 2px solid var(--red);
+}
+.item1 .Separation{
+    margin-top: 30px;
+    border-color: rgba(255, 255, 255, 0.344);
+}
+.listButoon{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.call{
+color: #fff;
+font-size: 20px;
+font-weight: 500;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 10px;
+}
+.callIcon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.callIcon .icon{
+    width: 70px;
+}
+.callIcon .icon img{
+    filter: invert(41%) sepia(94%) saturate(6868%) hue-rotate(345deg) brightness(102%) contrast(88%);
+}
+.btnHero{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: var(--red);
+    color: #fff;
+}
+.iconHero img{
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(137deg) brightness(103%) contrast(101%);
+
+}
+.iconHero{
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+.herobtnContaine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}

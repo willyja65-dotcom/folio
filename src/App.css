@@ -1,0 +1,14 @@
+:root{
+  --red :#f02d3a;
+  --bleu : #273043;
+}
+
+.btn{
+  background-color: var(--bleu);
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
